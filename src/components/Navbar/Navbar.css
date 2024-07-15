@@ -1,0 +1,49 @@
+.container{
+    margin: 0px 50px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 15px;
+}
+
+.nav-logo {
+    font-size: 40px;
+    font-family: 'Outfit';
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-contact {
+    background: white;
+    color: black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.nav ul li{
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .nav-logo{
+        font-size: 16px;
+    }
+    .nav ul{
+        gap:20px
+    }
+}
+
+@media (max-width:425px){
+    .nav ul{
+        display: none;
+    }
+}

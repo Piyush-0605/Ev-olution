@@ -1,0 +1,70 @@
+.hero-title {
+    color: white;
+    font-size: 83px;
+    margin-top: 15px;
+}
+
+
+.hero-explore {
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 5px 8px;
+    width: fit-content;
+    border-radius: 60px;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+.hero-dot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20px;
+}
+
+.dots ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 15px;
+}
+
+.hero-dots {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hero-dots.orange {
+    background: orange;
+}
+
+.hero-play {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.hero-play p {
+    font-size: 20px;
+    font-family: 'Outfit';
+    font-weight: 500;
+}
+
+@media (max-width:768px){
+    .hero-title{
+        font-size: 50px;
+        margin-top: 60px;
+    }
+    .hero-dot{
+        flex-direction: column;
+        gap: 55px;
+        margin-top: 60px;
+    }
+}
